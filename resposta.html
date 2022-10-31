@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html l<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intercambio</title>
+
+</head>
+<body onload="Resposta">
+    <h1>Condicoes para ganhar a Bolsa</h1>
+    <button onclick="aprovar()" id="botao"> A nota deve ser igual ou maior que 9,0 </button>
+    <section id="result">
+        <p>Para ganhar a bolsa de estudos Intercambio, A nota deve ser maior que 9,0 no teste</p>
+    </section>
+
+    <script>
+        var res = document.querySelector('section#result')
+        var nota = 9
+        var aluno = 0
+
+        function aprovar() {
+        aluno = Number(window.prompt('Qual nota você tirou no teste?'))
+        if (aluno < nota) {
+        res.innerHTML += `<p> Voce falou ${aluno}. Estude mais um pouco e tente novamente!!!<strong></
+        strong>!</p>`
+        } else if (aluno >= nota) {
+            res.innerHTML += `<p> Parabéns ${aluno}.você foi contemplado com uma Bolsa de Estudos!!<strong></
+            strong>!</p>`
+        } 
+    }
+    </script>
+</body>
+</html>
