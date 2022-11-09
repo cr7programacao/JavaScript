@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Votacao</title>
+    <meta charset="UTF-8">
+    <script src="urna.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="urna.css">
+</head>
+<body>
+    <div class="container">
+        <div class="branco">
+            <div class="cinzaClaro">
+                <p>Numero:</p>
+                <br>
+                <form action="">
+                    <input size="1" id="campo1" value="" maxlength="1" type="text" readonly="readonly"/>
+                    <input size="1" id="campo2" value="" maxlength="1" type="text" readonly="readonly"/>
+                </form>
+             </div>
+             <div class="cinzaEscuro"><br>
+                <b>JUSTICA<br>ELEITORAL</b>
+                <br>
+             </div> 
+             <div class="preto">
+                <br>
+                <button class="bnt click" onclick="inserir(1)">1</button>
+                <button class="bnt click" onclick="inserir(2)">2</button>
+                <button class="bnt click" onclick="inserir(3)">3</button><br>
+                <button class="bnt click" onclick="inserir(4)">4</button>
+                <button class="bnt click" onclick="inserir(5)">5</button>
+                <button class="bnt click" onclick="inserir(6)">6</button><br>
+                <button class="bnt click" onclick="inserir(7)">7</button>
+                <button class="bnt click" onclick="inserir(8)">8</button>
+                <button class="bnt click" onclick="inserir(9)">9</button><br>
+                <button class="bnt click" onclick="inserir(0)">0</button><br>
+                <br>
+                <div class="teclado2"><br>
+                    <br>
+                    <br>
+                    <button class="branco click">BRANCO</button>
+                    <button class="laranja click" onclick="corrige()">CORRIGE</button>
+                    <button class="verde" onclick="votar()">CONFIRMA</button>
+<br>
+                </div>
+             </div>
+        </div>
+        <a href="resultado.html">Resultado</a>
+    </div>
+</body>
+</html>
