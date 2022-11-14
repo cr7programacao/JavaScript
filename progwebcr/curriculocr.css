@@ -1,0 +1,24 @@
+.titulo {
+    text-align: center;
+    padding-right: 300px;
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(2, 28, 2);
+}
+.nome {
+    text-align: center;
+    padding-right: 260px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(2, 28, 2);
+}
+.dados {
+    text-align: center;
+    color: rgb(2, 28, 2);
+}
+#foto{
+    left: 20%;
+    top: 30px;
+    position: relative;
+    float: left;
+    padding-left: 10%;
+}
